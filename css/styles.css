@@ -4,6 +4,7 @@ Add media queuries to support larger screen sizes */
 /* Base font size to base REM off and theme colors */
 :root {
   font-size: 16px;
+  font-size: min(max(14px, 2vw), 20px);
   --grey-dark: #222;
   --grey-medium-dark: #4c4c4c;
   --grey-medium: #8a8a8a;
@@ -61,4 +62,3 @@ h3 {
 .navigation {
   text-align: center;
 }
-
