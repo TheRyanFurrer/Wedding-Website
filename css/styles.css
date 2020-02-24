@@ -1,0 +1,64 @@
+/* All styles start as mobile friendly. 
+Add media queuries to support larger screen sizes */
+
+/* Base font size to base REM off and theme colors */
+:root {
+  font-size: 16px;
+  --grey-dark: #222;
+  --grey-medium-dark: #4c4c4c;
+  --grey-medium: #8a8a8a;
+  --grey-medium-light: #c8c8c8;
+  --grey-light: #F2F2F2;
+
+  --gold-light: #e0d1a7;
+  --gold: #CEB05C;
+  --gold-dark: #78693f;
+
+  --burgandy-light: #b47984;
+  --burgandy: #750015;
+  --burgandy-dark: #4c111c;
+
+  --navy-light: #798aa8;
+  --navy: #00225E;
+  --navy-dark: #112240;
+}
+
+/* Basic Body Styling 
+Change here or overwrite with higher specificity*/
+body {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+.tagline {
+  color: var(--navy);
+}
+
+a {
+  color: var(--burgandy);
+}
+
+a:active,
+a:hover,
+a:focus {
+  color: var(--burgandy);
+}
+
+/*Font Sizing */
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* Mobile Menu Styling */
+.navigation {
+  text-align: center;
+}
+
