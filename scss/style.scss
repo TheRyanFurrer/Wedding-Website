@@ -1,0 +1,37 @@
+$darkest-grey: #202020;
+$lightest-grey: #e5e5e5;
+$main-navy: #1D263B;
+$main-maroon: #841122;
+$accent: #C9B170;
+
+/* Enables sticky footer */
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+/* Body Styling */
+body {
+  background: $lightest-grey;
+}
+
+/* Header Styling */
+/* Navbar Styling */
+.navbar {
+  background: $darkest-grey;
+
+  ul {
+    list-style: none;
+  }
+}
+
+/* Banner Styling */
+
+/* Main Content Styling */
+
+/* Footer Styling */
