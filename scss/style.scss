@@ -29,6 +29,7 @@ body {
   background: $background-grey;
 }
 
+/* Base Styles */
 section {
   margin: 3rem 0;
   padding: 0 .5rem;
@@ -38,7 +39,6 @@ section {
   }
 }
 
-/* Header Styling */
 /* Navbar Styling */
 .navbar {
   background: $main-navy;
@@ -66,7 +66,7 @@ section {
   }
 }
 
-/* Banner Styling */
+/* Header Styling */
 .header {
   background: $main-navy;
   color: $lightest-grey;
@@ -85,11 +85,28 @@ section {
     color: $accent;
   }
 }
+
 /* Main Content Styling */
 .main {
   section {
     h2 {
       color: $main-maroon;
+    }
+  }
+}
+
+/* Wedding Party Page Styling */
+/* Section Styling */
+.bridal-party-section {
+
+  .wedding-party-card {
+    background: $lightest-grey;
+    border: .5rem solid $lightest-grey;
+    margin: 1rem auto;
+    width: 75%;
+
+    img {
+      width: 100%;
     }
   }
 }
