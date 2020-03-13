@@ -1,5 +1,6 @@
 $darkest-grey: #202020;
-$lightest-grey: #e5e5e5;
+$background-grey: #e5e5e5;
+$lightest-grey: #f2f2f2;
 $main-navy: #1D263B;
 $main-maroon: #841122;
 $accent: #C9B170;
@@ -9,6 +10,14 @@ $accent: #C9B170;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .main {
@@ -17,21 +26,86 @@ $accent: #C9B170;
 
 /* Body Styling */
 body {
-  background: $lightest-grey;
+  background: $background-grey;
+}
+
+section {
+  margin: 3rem 0;
+  padding: 0 .5rem;
+
+  p {
+    margin-top: 1rem;
+  }
 }
 
 /* Header Styling */
 /* Navbar Styling */
 .navbar {
-  background: $darkest-grey;
+  background: $main-navy;
+  width: 100%;
 
   ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
+    padding: 1rem .5rem;
+
+    li {
+
+      a {
+        color: $lightest-grey;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $accent;
+        text-decoration: underline;
+      }
+    }
   }
 }
 
 /* Banner Styling */
+.header {
+  background: $main-navy;
+  color: $lightest-grey;
+  display: flex;
+  flex-flow: column wrap;
+  height: 450px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
 
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    color: $accent;
+  }
+}
 /* Main Content Styling */
+.main {
+  section {
+    h2 {
+      color: $main-maroon;
+    }
+  }
+}
 
 /* Footer Styling */
+.footer {
+  background: $lightest-grey;
+  padding: 1.5rem .5rem;
+  text-align: center;
+  width: 100%;
+
+  span {
+    color: red;
+  }
+
+  a {
+    color: $main-maroon;
+  }
+}

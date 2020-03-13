@@ -32,8 +32,6 @@ dd {
 /* Changes default :focus color */
 a:focus {
   outline: 2px solid var(--brand);
-  padding: .15rem;
-}
 
 /* Set core body defaults */
 body {
