@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: min(max(16px, 4vw), 22px);
+}
+
 /* Remove default padding */
 ul[class],
 ol[class] {

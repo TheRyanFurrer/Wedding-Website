@@ -83,17 +83,21 @@ section {
   color: $lightest-grey;
   display: flex;
   flex-flow: column wrap;
-  height: 450px;
+  height: 550px;
   justify-content: center;
   text-align: center;
   width: 100%;
 
   h1 {
     font-size: 4rem;
+    padding: 0 .5rem;
   }
 
   h3 {
     color: $accent;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 0 .5rem;
   }
 }
 
