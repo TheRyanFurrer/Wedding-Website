@@ -110,7 +110,7 @@ section {
 /* Section Styling */
 .section-container {
   margin: 3rem auto;
-  width: 75%;
+  width: 95%;
 
   h2 {
     margin-bottom: 1.5rem;
@@ -157,5 +157,14 @@ section {
 
   a {
     color: $main-maroon;
+  }
+}
+
+@media (min-width: 721px) {
+  .section-container {
+    width: 75%;
+  }
+  #our-story {
+    width: 60%;
   }
 }
