@@ -5,6 +5,9 @@ $main-navy: #1D263B;
 $main-maroon: #841122;
 $accent: #C9B170;
 
+$heading-font: 'Petit Formal Script', cursive;
+$body-font: 'Raleway', sans-serif;
+
 /* Enables sticky footer */
 .site {
   display: flex;
@@ -31,11 +34,11 @@ body {
 
 /* Base Styles */
 h1, h2, h4 {
-  font-family: 'Petit Formal Script', cursive;
+  font-family: $heading-font;
 }
 
 h3, a, p {
-  font-family: 'Raleway', sans-serif;
+  font-family: $body-font;
 }
 
 section {
@@ -105,7 +108,7 @@ section {
 
 /* Wedding Party Page Styling */
 /* Section Styling */
-.bridal-party-section {
+.section-container {
   margin: 3rem auto;
   width: 75%;
 
@@ -120,7 +123,7 @@ section {
   }
 
   .venue-name a {
-    font-family: 'Petit Formal Script', cursive;
+    font-family: $heading-font;
     color: $main-maroon;
   }
 
