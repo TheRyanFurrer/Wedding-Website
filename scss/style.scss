@@ -135,7 +135,7 @@ section {
                 0 4px 4px rgba(0,0,13%,0.08), 
                 0 8px 8px rgba(0,0,13%,0.08),
                 0 16px 16px rgba(0,0,13%,0.08);
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem auto;
     width: 100%;
 
     img {
@@ -161,10 +161,14 @@ section {
 }
 
 @media (min-width: 721px) {
-  .section-container {
-    width: 75%;
-  }
   #our-story {
     width: 60%;
+  }
+  .section-container {
+    width: 75%;
+
+    .image-card {
+      width: 65%;
+    }
   }
 }
