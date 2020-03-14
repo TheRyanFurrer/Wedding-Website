@@ -30,6 +30,14 @@ body {
 }
 
 /* Base Styles */
+h1, h2, h4 {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+h3, a, p {
+  font-family: 'Raleway', sans-serif;
+}
+
 section {
   margin: 3rem 0;
   padding: 0 .5rem;
@@ -112,6 +120,7 @@ section {
   }
 
   .venue-name a {
+    font-family: 'Petit Formal Script', cursive;
     color: $main-maroon;
   }
 
