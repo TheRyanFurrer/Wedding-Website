@@ -110,6 +110,16 @@ section {
   }
 }
 
+/* Home Page Styling */
+.quote-aside {
+  background: $accent;
+  margin: 0 auto;
+
+  .quote {
+    padding: 1.5rem;
+  }
+}
+
 /* Wedding Party Page Styling */
 /* Section Styling */
 .section-container {
@@ -167,6 +177,10 @@ section {
 @media (min-width: 721px) {
   #our-story {
     width: 60%;
+
+    .quote-aside {
+      width: 65%;
+    }
   }
   .section-container {
     width: 75%;
