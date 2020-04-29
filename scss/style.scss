@@ -150,10 +150,22 @@ section {
                 0 8px 8px rgba(0,0,13%,0.08),
                 0 16px 16px rgba(0,0,13%,0.08);
     margin: 0 auto 3rem auto;
-    width: 100%;
 
     img {
       width: 100%;
+    }
+
+    .wedding-party {
+      max-height: 560px;
+      object-fit: contain;
+    }
+
+    .bonura {
+      background: #432F24;
+    }
+
+    .emily-furrer {
+      background: #594570;
     }
   }
 }
@@ -187,6 +199,10 @@ section {
 
     .image-card {
       width: 55%;
+    }
+
+    #venue-picture {
+      width: 80%;
     }
   }
 }
