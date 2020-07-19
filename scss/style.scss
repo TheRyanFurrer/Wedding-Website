@@ -119,10 +119,11 @@ section {
     margin: 1.5rem;
     width: 50%;
   }
+}
 
-  #family {
-    width: 100%;
-  }
+#family {
+  margin: 3rem auto;
+  width: 75%;
 }
 
 .quote-aside {
@@ -136,6 +137,7 @@ section {
 
 /* Wedding Party Page Styling */
 /* Section Styling */
+
 .section-container {
   margin: 3rem auto;
   width: 95%;
@@ -196,6 +198,22 @@ section {
 
     .jillian-ryan {
       background: #302B33;
+    }
+
+    .samantha-motta {
+      background: #2A1415;
+    }
+
+    .baio {
+      background: #444543;
+    }
+
+    .kerri {
+      background: #C1957F;
+    }
+
+    .laikin {
+      background: #16415F;
     }
   }
 }
