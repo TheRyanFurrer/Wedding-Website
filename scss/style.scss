@@ -111,6 +111,20 @@ section {
 }
 
 /* Home Page Styling */
+.profiles {
+  display: flex;
+
+  #meg,
+  #ryan {
+    margin: 1.5rem;
+    width: 50%;
+  }
+
+  #family {
+    width: 100%;
+  }
+}
+
 .quote-aside {
   background: $accent;
   margin: 0 auto;
