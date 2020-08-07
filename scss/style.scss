@@ -218,6 +218,36 @@ section {
   }
 }
 
+/* Details Page Styling */
+.details {
+  text-align: center;
+}
+
+.container_50-50 {
+  margin: 3rem auto;
+}
+
+.btn {
+  margin: 1rem auto;
+  padding: .5rem;
+  width: 100%;
+
+  a {
+    color: #fff;
+  }
+}
+
+.target {
+  background: #CC0000;
+  text-align: center;
+}
+
+.amazon {
+  background: #131921;
+  color: #fff;
+  text-align: center;
+}
+
 /* Footer Styling */
 .footer {
   background: $lightest-grey;
@@ -234,6 +264,8 @@ section {
   }
 }
 
+
+/* Media Queries */
 @media (min-width: 721px) {
   #our-story {
     width: 60%;
@@ -251,6 +283,17 @@ section {
 
     #venue-picture {
       width: 80%;
+    }
+  }
+
+  .container_50-50 {
+    display: flex;
+    margin: 3rem auto;
+    max-width: 40em;
+
+    .registry {
+      margin: 1rem;
+      width: 50%;
     }
   }
 }
