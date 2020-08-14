@@ -114,10 +114,15 @@ section {
 .profiles {
   display: flex;
 
-  #meg,
-  #ryan {
+  #meg-homepage,
+  #ryan-homepage {
     margin: 1.5rem;
     width: 50%;
+  }
+
+  #meg-homepage > img,
+  #ryan-homepage > img {
+    height: 100%;
   }
 }
 
