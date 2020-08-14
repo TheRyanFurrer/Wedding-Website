@@ -280,16 +280,21 @@ section {
       width: 65%;
     }
   }
+
+  .wedding-party-container {
+    max-width: 490px;
+  }
+
   .section-container {
     width: 75%;
-
-    .image-card {
-      width: 55%;
-    }
 
     #venue-picture {
       width: 80%;
     }
+  }
+
+  #photo-section {
+    max-width: 50%;
   }
 
   .container_50-50 {
@@ -300,6 +305,34 @@ section {
     .registry {
       margin: 1rem;
       width: 50%;
+    }
+  }
+}
+
+@media (min-width: 1080px) {
+  
+  #photo-section {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 100%;
+
+    .gallery-image {
+      display: flex;
+      flex-grow: 1;
+      margin: .5em .5em;
+      max-width: 45%;
+    }
+}}
+
+
+@media (min-width: 1439px) {
+  
+  #photo-section {
+
+    .gallery-image {
+      max-width: 25%;
     }
   }
 }
