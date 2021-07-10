@@ -86,7 +86,7 @@ nav {
 
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     padding: 1rem 0;
 
@@ -112,6 +112,7 @@ header {
   flex-flow: column wrap;
   height: 50vh;
   margin-top: 0;
+  padding: 0 0.5rem;
   place-content: center;
 
   h3 {
@@ -258,8 +259,13 @@ body {
 /*-----Footer-----*/
 footer {
   background: $navy;
-  padding: 1rem 0;
+  padding-top: 1rem;
   text-align: center;
+
+  nav {
+    padding-top: 0;
+    margin-top: 0;
+  }
 
   p {
     color: $gray-light;
