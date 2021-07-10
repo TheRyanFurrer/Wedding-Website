@@ -43,11 +43,21 @@ a {
 
 section {
   margin-top: 3rem;
+
+  h2 {
+    color: $maroon;
+  }
 }
 
 .container {
   margin: 0 auto;
   max-width: 95%;
+}
+
+.photo-card {
+  background: $white;
+  padding: 1rem;
+  width: auto;
 }
 
 /*-----Navbar-----*/
@@ -116,10 +126,6 @@ body {
     #wedding-party {
       article {
         .photo-card {
-          background: $white;
-          padding: 1rem;
-          width: auto;
-
           img {
             aspect-ratio: 1/1;
             height: auto;
@@ -139,6 +145,32 @@ body {
       .officiant {
         h2 {
           margin-top: 3rem;
+        }
+      }
+    }
+    /*-----Venue-----*/
+    #venue {
+      article {
+        .photo-card {
+          p {
+            margin-top: 1rem;
+            font-family: $font-family-heading;
+          }
+        }
+        h2 {
+          margin-top: 3rem;
+          margin-bottom: 0;
+          text-align: left;
+
+          a {
+            color: $maroon;
+            text-decoration: underline;
+            text-underline-offset: 0.25rem;
+          }
+        }
+        #address {
+          font-size: larger;
+          font-style: bold;
         }
       }
     }
