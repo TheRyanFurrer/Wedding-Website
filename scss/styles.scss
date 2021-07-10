@@ -194,6 +194,12 @@ body {
     }
     /*-----Details-----*/
     #details {
+      p {
+        text-align: center;
+      }
+      p:first-of-type {
+        margin-bottom: 0;
+      }
       article {
         a {
           background: $gray-dark;
@@ -282,6 +288,25 @@ footer {
         .photo-card {
           margin: 0 1rem;
           max-width: 45%;
+        }
+      }
+    }
+
+    #details {
+      #registries {
+        display: flex;
+        flex-flow: column wrap;
+
+        div {
+          display: flex;
+
+          a {
+            margin: 0 1rem;
+          }
+
+          #amazon {
+            margin-top: 0;
+          }
         }
       }
     }
