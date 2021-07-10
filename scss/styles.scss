@@ -63,6 +63,10 @@ section {
   margin: 0 auto;
   width: 95%;
 }
+.max-width-container {
+  margin: 0 auto;
+  max-width: 95%;
+}
 
 .photo-card {
   background: $white;
@@ -142,6 +146,17 @@ body {
 
     /*-----Photos-----*/
     #photos {
+      article {
+        .photo-card {
+          margin-bottom: 5rem;
+          img {
+            aspect-ratio: 1/1;
+            height: auto;
+            object-fit: cover;
+            width: 100%;
+          }
+        }
+      }
     }
     /*-----Wedding Party-----*/
     #wedding-party {
@@ -278,6 +293,20 @@ footer {
       }
     }
 
+    #photos {
+      article {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        .photo-card {
+          flex-basis: 100%;
+          margin-bottom: 0;
+          margin: 0 1rem;
+          max-width: 45%;
+        }
+      }
+    }
+
     #wedding-party {
       article {
         display: flex;
@@ -285,11 +314,11 @@ footer {
         justify-content: space-around;
 
         h2 {
-          // flex-grow: 1;
           flex-basis: 100%;
           text-align: center;
         }
         .photo-card {
+          flex-basis: 100%;
           margin: 0 1rem;
           max-width: 45%;
         }
