@@ -51,7 +51,7 @@ section {
 
 .container {
   margin: 0 auto;
-  max-width: 95%;
+  width: 95%;
 }
 
 .photo-card {
@@ -171,6 +171,26 @@ body {
         #address {
           font-size: larger;
           font-style: bold;
+        }
+      }
+    }
+    /*-----Details-----*/
+    #details {
+      article {
+        a {
+          background: $gray-dark;
+          display: inline-block;
+          color: $white;
+          font-size: 1.25rem;
+          padding: 1rem;
+          text-align: center;
+          width: 100%;
+        }
+        #target {
+          background: #cc0000;
+        }
+        #amazon {
+          background: #131921;
         }
       }
     }
