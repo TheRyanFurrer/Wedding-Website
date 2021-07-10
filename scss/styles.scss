@@ -13,6 +13,16 @@ h3,
 h4 {
   font-family: $font-family-heading;
 }
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
 p,
 li,
 a {
@@ -56,6 +66,11 @@ section {
 
 .photo-card {
   background: $white;
+  box-shadow: 0 1px 2.2px rgba(0, 0, 0, 0.027),
+    0 2.4px 5.3px rgba(0, 0, 0, 0.035), 0 4.5px 10px rgba(0, 0, 0, 0.041),
+    0 8px 17.9px rgba(0, 0, 0, 0.047), 0 15px 33.4px rgba(0, 0, 0, 0.055),
+    0 36px 80px rgba(0, 0, 0, 0.07);
+
   padding: 1rem;
   width: auto;
 }
@@ -97,6 +112,7 @@ header {
   h3 {
     color: $gold;
     font-family: 'Raleway', sans-serif;
+    line-height: 1;
   }
 }
 
@@ -126,6 +142,7 @@ body {
     #wedding-party {
       article {
         .photo-card {
+          margin-bottom: 5rem;
           img {
             aspect-ratio: 1/1;
             height: auto;
@@ -222,6 +239,35 @@ footer {
 
     &:hover {
       color: $gold;
+    }
+  }
+}
+
+/*-----Media Queries-----*/
+@media only screen and (min-width: 720px) {
+  :root {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 90ch;
+  }
+
+  body {
+    #our-story {
+      div {
+        display: flex;
+        margin: 0 auto;
+        // width: 90%;
+        place-content: center;
+
+        img {
+          // aspect-ratio: 1/1;
+          height: auto;
+          margin: 0 1rem;
+          // overflow: none;
+          width: 50%;
+        }
+      }
     }
   }
 }
