@@ -118,8 +118,13 @@ body {
         .photo-card {
           background: $white;
           padding: 1rem;
+          width: auto;
+
           img {
+            aspect-ratio: 1/1;
+            height: auto;
             margin-bottom: 0.5rem;
+            object-fit: contain;
             width: 100%;
           }
 
