@@ -4,19 +4,20 @@ $maroon: #841122;
 $white: #fff;
 $gray-light: #f5f5f5;
 $gray-dark: #222;
+$font-family-heading: 'Petit Formal Script', cursive;
+$font-family-paras: 'Raleway', sans-serif;
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: 'Petit Formal Script', cursive;
+  font-family: $font-family-heading;
 }
-
 p,
 li,
 a {
   color: $gray-dark;
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-family-paras;
 }
 
 p {
@@ -45,7 +46,7 @@ section {
 }
 
 .container {
-  margin: 0 0.5rem;
+  margin: 0 auto;
   max-width: 95%;
 }
 
@@ -99,6 +100,40 @@ body {
         h2 {
           margin-bottom: 1.5rem;
           text-align: center;
+        }
+      }
+    }
+
+    /*-----Our Story-----*/
+    #our-story {
+      article {
+        img:last-of-type {
+          margin: 1.5rem 0;
+        }
+      }
+    }
+    /*-----Wedding Party-----*/
+    #wedding-party {
+      article {
+        .photo-card {
+          background: $white;
+          padding: 1rem;
+          img {
+            margin-bottom: 0.5rem;
+            width: 100%;
+          }
+
+          .title {
+            font-family: $font-family-heading;
+            line-height: 0;
+          }
+        }
+      }
+
+      .groomsmen,
+      .officiant {
+        h2 {
+          margin-top: 3rem;
         }
       }
     }
