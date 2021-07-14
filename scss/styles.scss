@@ -107,6 +107,7 @@ nav {
 /*-----Header-----*/
 header {
   background: $navy;
+  background: linear-gradient(135deg, $navy, #5a9cff 400%);
   color: $white;
   display: flex;
   flex-flow: column wrap;
@@ -221,10 +222,10 @@ body {
     /*-----Details-----*/
     #details {
       p {
-        text-align: center;
+        text-align: left;
       }
       p:first-of-type {
-        margin-bottom: 0;
+        // margin-bottom: 0;
       }
       article {
         a {
@@ -241,6 +242,9 @@ body {
         }
         #amazon {
           background: #131921;
+        }
+        #honeyfund {
+          background: #5a9cff;
         }
       }
     }
