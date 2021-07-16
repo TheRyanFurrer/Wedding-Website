@@ -228,23 +228,65 @@ body {
         // margin-bottom: 0;
       }
       article {
-        a {
+        .btn {
           background: $gray-dark;
           display: inline-block;
           color: $white;
           font-size: 1.25rem;
+          outline: 2px solid $gray-dark;
           padding: 1rem;
           text-align: center;
           width: 100%;
         }
         #target {
           background: #cc0000;
+          outline-color: #cc0000;
         }
         #amazon {
           background: #131921;
+          outline-color: #131921;
         }
         #honeyfund {
           background: #5a9cff;
+          outline-color: #5a9cff;
+        }
+      }
+
+      #hotel {
+        margin-top: 6rem;
+        h2 {
+          text-align: center;
+        }
+        article {
+          h3 {
+            margin-bottom: 1.5rem;
+            a {
+              color: $maroon;
+              text-decoration: underline;
+              text-underline-offset: 0.25rem;
+            }
+          }
+        }
+
+        p {
+          a {
+            color: $maroon;
+            font-weight: 700;
+          }
+
+          span {
+            font-weight: 700;
+          }
+        }
+
+        div {
+          #hotel-book-online {
+            outline-color: $gray-dark;
+          }
+          #hotel-call-now {
+            background: none;
+            color: $gray-dark;
+          }
         }
       }
     }
@@ -354,6 +396,19 @@ footer {
           }
 
           #amazon {
+            margin-top: 0;
+          }
+        }
+      }
+
+      #hotel {
+        div {
+          display: flex;
+
+          a {
+            margin: 0 1rem;
+          }
+          #hotel-call-now {
             margin-top: 0;
           }
         }
