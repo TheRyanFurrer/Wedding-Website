@@ -281,6 +281,7 @@ body {
         }
 
         div {
+          margin: 3rem 0;
           #hotel-book-online {
             background: $navy;
             outline-color: $navy;
@@ -290,6 +291,9 @@ body {
             color: $navy;
             outline-color: $navy;
           }
+        }
+        iframe {
+          margin-bottom: 1.5rem;
         }
       }
     }
