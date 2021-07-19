@@ -83,6 +83,7 @@ section {
 /*-----Navbar-----*/
 nav {
   background: $navy;
+  margin-top: 0;
 
   ul {
     display: flex;
@@ -344,6 +345,9 @@ footer {
   }
 
   body {
+    .full-width-container {
+      max-width: 1660px;
+    }
     #our-story {
       div {
         display: flex;
